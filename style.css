@@ -1,0 +1,70 @@
+body {
+    background-color: #fff6e9;
+}
+h1,
+h2,
+h3 {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ff4500;
+}
+
+h2 {
+    color: #ffa500;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10px;
+    margin: 0 auto;
+    color: #000;
+}
+aside {
+    text-align: center;
+}
+header {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.table-title {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    font-family: "Cutive Mono", monospace;
+    background-color: #fff;
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
